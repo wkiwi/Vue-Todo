@@ -10,11 +10,11 @@
 
 <script>
 // 引入header.vue组件
-import Header from "./todo/header.vue";
+import Header from "./layout/header.vue";
 // 引入footer.jsx组件   //不同组建方式而已
-import Footer from "./todo/footer.jsx";
+import Footer from "./layout/footer.jsx";
 // 引入todo.vue组件
-import Todo from "./todo/todo.vue";
+import Todo from "./views/todo/todo.vue";
 export default {
   // 声明组件，之后便可以使用组件标签
   components: {
