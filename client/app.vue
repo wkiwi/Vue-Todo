@@ -8,15 +8,13 @@
 </template>
 
 <script>
-// 引入header.vue组件
-import Header from "./layout/header.vue";
-// 引入footer.jsx组件   //不同组建方式而已
-import Footer from "./layout/footer.jsx";
-// 引入todo.vue组件
-import Todo from "./views/todo/todo.vue";
+
+import Header from "./layout/header.vue"; // 引入header.vue组件
+import Footer from "./layout/footer.jsx"; // 引入footer.jsx组件   //不同组建方式而已
+import Todo from "./views/todo/todo.vue"; // 引入todo.vue组件
+
 export default {
-  // 声明组件，之后便可以使用组件标签
-  components: {
+  components: {  // 声明组件，之后便可以使用组件标签
     Header,
     Footer,
     Todo
@@ -24,7 +22,7 @@ export default {
 };
 </script>
 
-<!-- 设置scoped 表示当前组件下的id只在当前组件起作用，不会跟其他组件引起冲突 -->
+
 <style lang="stylus" scoped>
 #app {
   position: absolute;

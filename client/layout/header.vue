@@ -4,10 +4,9 @@
   </header>
 </template>
 
-<style lang="stylus" scoped>
+<style lang="stylus" scoped >
 .main-header {
   text-align: center;
-
   h1 {
     font-size: 100px;
     background-image: linear-gradient(#167, #202d40);
