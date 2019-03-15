@@ -1,5 +1,4 @@
 <template>
-  <!-- app.vue 的template标签内只能有一个节点 -->
   <div id="app">
     <div id="cover"></div>
     <Header></Header>

@@ -7,7 +7,6 @@
       @keyup.enter="addTodo"
       placeholder="接下去要做什么？"
     >
-
     <item :todo="todo" v-for="todo in filteredTodos" :key="todo.id" @del="deleteTodo"/>
     <tabs
       :filter="filter"
